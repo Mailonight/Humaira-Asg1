@@ -37,9 +37,12 @@ Allows users to achieve an interactive communication with the company. By clicki
 Features left to implement:
 -A video of customers reviewing their experiencing working with the company
 
+
 -A form that is already visible on the screen rather than having to click 'click for form' button.
 
+
 -A sort button in the 'view' page. Allows users to find a bike catered to their budget. Allows users to choose 'price: highest-lowest' or 'price: lowest-highest'.
+
 
 -A more interactive page for the 'About Us'
 

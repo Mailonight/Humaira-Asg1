@@ -17,3 +17,16 @@ Moreover, there are customers that are seeking a place or platform to sell their
 How my project is the best way to help them achieve these things:
 
 My project, which is to provide a website platform for the targeted audiences would successfully achieve their desired motive through this website because it allows easy access to every contact details, such as whatsapp and details explaining services. Furthermore, this website allows users to browse through their desired motorcycles to rent, which becomes easier rather than coming in-store and browsing on-site. With the convenience provided, our company, MoreMoto would entice more customers islandwide as well as gaining significant sales revenue.
+
+User Stories:
+
+As a user type, I want to perform an action: 
+
+So that I can achieve (Goal):
+
+Features:
+
+Existing features:
+
+Feature 1- Whatsapp button
+Allows users to achieve an interactive communication with the company. By clicking on the button, users will be directed to whatsapp web and hence they can begin chat with the company. This is an important feature especially for those that are willing to contact the company immediately to clear their doubts as soon as possible.

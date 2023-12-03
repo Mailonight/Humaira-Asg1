@@ -18,23 +18,29 @@ How my project is the best way to help them achieve these things:
 
 My project, which is to provide a website platform for the targeted audiences would successfully achieve their desired motive through this website because it allows easy access to every contact details, such as whatsapp and details explaining services. Furthermore, this website allows users to browse through their desired motorcycles to rent, which becomes easier rather than coming in-store and browsing on-site. With the convenience provided, our company, MoreMoto would entice more customers islandwide as well as gaining significant sales revenue.
 
+
 User Stories:
 
 As a user type, I want to perform an action: 
 
 So that I can achieve (Goal):
 
+
 Features:
 
 Existing features:
 
 Feature 1- Whatsapp button
+
 Allows users to achieve an interactive communication with the company. By clicking on the button, users will be directed to whatsapp web and hence they can begin chat with the company. This is an important feature especially for those that are willing to contact the company immediately to clear their doubts as soon as possible.
 
 Features left to implement:
 -A video of customers reviewing their experiencing working with the company
+
 -A form that is already visible on the screen rather than having to click 'click for form' button.
+
 -A sort button in the 'view' page. Allows users to find a bike catered to their budget. Allows users to choose 'price: highest-lowest' or 'price: lowest-highest'.
+
 -A more interactive page for the 'About Us'
 
 
@@ -50,7 +56,8 @@ Testing:
    iv. Try to enter whatsapp details.
 
 
-Credits
+Credits:
+
 
 Content
 The text for section 'About Us' was copied from Vroom Leasing Singapore.

@@ -34,6 +34,18 @@ Feature 1- Whatsapp button
 
 Allows users to achieve an interactive communication with the company. By clicking on the button, users will be directed to whatsapp web and hence they can begin chat with the company. This is an important feature especially for those that are willing to contact the company immediately to clear their doubts as soon as possible.
 
+feature two- interactive buttons
+
+feature three - enquiry form
+
+feature four - choose dae & time for pickup and dropoff 
+this feature is located when u click on the first product on the 'View page'.
+Steps to view this feature:
+Go to 'View page'
+Click on view on the first product of the page
+It would direct you to the page where you get a description of the product.
+Additionally, you can choose date and time of your pick up and dropoff.
+
 Features left to implement:
 -A video of customers reviewing their experiencing working with the company
 
@@ -48,7 +60,9 @@ Features left to implement:
 
 
 Technologies Used:
-None
+HTML
+CSS
+Javascript- Form 
 
 Testing:
 
@@ -57,6 +71,14 @@ Testing:
    ii. Go under the 'Other Services We Provide' section
    iii. Click on 'Whatsapp button'
    iv. Try to enter whatsapp details.
+
+Bugs / Issues:
+1. Footer keeps adjustin away
+2. The container in 'view' page is always modifying by itself
+3. The images in 'contact' page is upsized suddenly
+4. The images are hard to align
+5. The flexboxes often shift by itself
+
 
 
 Credits:

@@ -121,15 +121,18 @@ button:hover{
     background-color: rgb(243, 243, 243);
     flex-wrap: wrap;
 }
-.container1{ <!View page--->
+.container1{
     display:flex;
     justify-content: center;
+    top: 550px;
+    position: relative;
+    
 }
 .card{
     background: rgb(47, 0, 255);
     width: 220px;
     height: 400px;
-    margin: 10px;
+    margin: 35px;
     border-radius: 15px;
 }
 .card-image{
@@ -139,13 +142,13 @@ button:hover{
     border-radius: 15px 15px 0 0;
 }
 .motor-1{
-    background-image: url('IMAGES/YamahaXSR900.jpeg');
+    background-image: url('IMAGES/Ducati\ 1199\ Panigale.jpeg');
 }
 .motor-2{
     background-image: url('IMAGES/download\ \(9\).jpeg');
 }
 .motor-3{
-    background-image: url('IMAGES/Ducati\ 1199\ Panigale.jpeg');
+    background-image: url('IMAGES/download\ \(12\).jpeg');
 }
 .flex-item{
     padding: 2%;
@@ -336,6 +339,39 @@ p{
     background: black;
     border-color: chartreuse;
 }
+#rent{
+    text-align: center;
+    position: relative;
+    align-items: center;
+    top: 5px;
+    left: 730px;
+    color: blue;
+    background: white;
+    border-color: blue;
+}
+#rent:hover{
+    text-align: center;
+    position: relative;
+    align-items: center;
+    top: 5px;
+    left: 730px;
+    color:white;
+    background: blue;
+    border-color: white;
+}
+#view{
+    top: 35px;
+    width: 90px;
+    position: relative;
+}
+#view:hover{
+    top: 35px;
+    width: 90px;
+    position: relative;
+    color: blue;
+    background: white;
+    border-color: blue;
+}
 map{
     background-color: ivory;
     height: 600;
@@ -416,7 +452,7 @@ ul{
 }
 .realfooter{
     background-color: black;
-    height: 300px;
+    height: 200px;
 }
 #copyright{
     color:white;
@@ -436,6 +472,65 @@ ul{
     background: black;
 }
 #copyright{
-    top: 1px;
+    top: 150px;
+    left: 30px;
     position: relative;
+}
+#arrow{
+    width:60px;
+    height: 60px;
+    top:105px;
+    left: 20px;
+    position: relative;
+}
+#yamaha{
+    top:90px;
+    left: 105px;
+    width: 430px;
+    height: 490px;
+    position: relative;
+}
+#yamahatitle{
+    left:225px;
+    top: 55px;
+    position:relative;
+}
+aside{
+    top:90px;
+    height:490px;
+    right: 382px;
+    position: relative;
+    width:300px;
+    padding-left:100px;
+    margin-left: 100px;
+    float:right;
+}
+.itemtitle{
+    background-color: black;
+    color: white;
+    width: 900px;
+}
+#itemtitle1{
+    left:225px;
+    position:relative;
+}
+#itemtitle2{
+    left:260px;
+    position:relative;
+}
+#itemtitle3{
+    right:150px;
+    position:relative;
+}
+.itemdescription{
+    left: 150px;
+    position: relative;
+}
+.datetime{
+    left: 740px;
+    position: relative;
+}
+#submit{
+    left: 70px;
+    position:relative;
 }

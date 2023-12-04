@@ -12,8 +12,8 @@
 }
 #backgroundimg2{
     width: 100%;
-   height: 90%;
-   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(IMAGES/Background.jpeg);
+   height: 700px;
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
    background-size: cover;
    background-position: center;
 }
@@ -67,8 +67,14 @@
 .content{
     width:100%;
     position: absolute;
+    top: 45%;
+    text-align: center;
+    color: white;
+}
+.viewtitle{
+    width:100%;
+    position: relative;
     top: 80%;
-    transform: translateY(-50%);
     text-align: center;
     color: white;
 }
@@ -108,12 +114,16 @@ span{
     bottom: 0;
     z-index: -1;
 }
-button:hover span{
-    width:100%;
-    border: 2px solid white;
-}
 button:hover{
-    border: none;
+    border-color:white;
+    background: rgba(255, 0, 0, 0.473);
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    position: relative;
 }
 .container{
     display: flex;
@@ -124,9 +134,15 @@ button:hover{
 .container1{
     display:flex;
     justify-content: center;
-    top: 550px;
+    top: 10px;
     position: relative;
-    
+    flex-wrap: wrap;
+}
+.container2{
+    display:flex;
+    top: 10px;
+    position: relative;
+    flex-wrap: wrap;
 }
 .card{
     background: rgb(47, 0, 255);
@@ -444,11 +460,11 @@ ul{
 }
 #title{
     color: white;
-    align-items: center;
+    align-items: left;
 }
 #information{
-    color: white;
-    align-items: left;
+    color: black;
+    align-items: center;
 }
 .realfooter{
     background-color: black;
@@ -462,10 +478,43 @@ ul{
     top: 200px;
 }
 .AboutUs{
-    top: 220px;
+    background-color: white;
+    color: black;
+    top:90px;
+    width:300px;
+    height:490px;
+    left:60px;
+    flex-wrap: wrap;
     position: relative;
-    background: black;
+    padding-left:2px;
+    margin-left: 2px;
+    float:left;
+    border-radius: 10px;
+    border-color: 10px black;
 }
+#Rucky{
+    width: 50px;
+    height: 50px;
+    top: 90px;
+    left:205px;
+    position: relative;
+}
+.WhoAreWe{
+    background-color: white;
+    color: black;
+    top:90px;
+    width:300px;
+    height:490px;
+    left:555px;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left:2px;
+    margin-left: 2px;
+    float:left;
+    border-radius: 10px;
+    border-color: 10px black;
+}
+
 .footerabout{
     top: 235px;
     position: relative;

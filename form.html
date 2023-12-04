@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+     
 <head>
     <title>Form</title>
     <link rel="icon" href="IMAGES/Logo.jpg" >
@@ -14,7 +15,7 @@
 
     <h2>Details about YOU</h2>
 
-    <form action="/action_page.php">
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
     <label for="fname">First name:</label>
     <br>
     <input type="text" id="fname" name="fname">

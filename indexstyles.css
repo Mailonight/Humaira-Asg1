@@ -10,6 +10,13 @@
     background-size: cover;
     background-position: center;
 }
+#backgroundimg2{
+    width: 100%;
+   height: 90%;
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(IMAGES/Background.jpeg);
+   background-size: cover;
+   background-position: center;
+}
 .banner{
     background-color:black;
 }
@@ -41,6 +48,11 @@
 .navbar ul li a{
     text-decoration:none;
     color: royalblue;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    text-decoration:none;
+    color: red;
     text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -108,6 +120,32 @@ button:hover{
     width: 100%;
     background-color: rgb(243, 243, 243);
     flex-wrap: wrap;
+}
+.container1{ <!View page--->
+    display:flex;
+    justify-content: center;
+}
+.card{
+    background: rgb(47, 0, 255);
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius: 15px 15px 0 0;
+}
+.motor-1{
+    background-image: url('IMAGES/YamahaXSR900.jpeg');
+}
+.motor-2{
+    background-image: url('IMAGES/download\ \(9\).jpeg');
+}
+.motor-3{
+    background-image: url('IMAGES/Ducati\ 1199\ Panigale.jpeg');
 }
 .flex-item{
     padding: 2%;
@@ -386,4 +424,18 @@ ul{
     position: relative;
     align-items: center;
     top: 200px;
+}
+.AboutUs{
+    top: 220px;
+    position: relative;
+    background: black;
+}
+.footerabout{
+    top: 235px;
+    position: relative;
+    background: black;
+}
+#copyright{
+    top: 1px;
+    position: relative;
 }

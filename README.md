@@ -60,7 +60,9 @@ Features left to implement:
 
 
 Technologies Used:
-None
+HTML
+CSS
+Javascript- Form 
 
 Testing:
 
@@ -69,6 +71,14 @@ Testing:
    ii. Go under the 'Other Services We Provide' section
    iii. Click on 'Whatsapp button'
    iv. Try to enter whatsapp details.
+
+Bugs / Issues:
+1. Footer keeps adjustin away
+2. The container in 'view' page is always modifying by itself
+3. The images in 'contact' page is upsized suddenly
+4. The images are hard to align
+5. The flexboxes often shift by itself
+
 
 
 Credits:
